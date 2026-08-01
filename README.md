@@ -17,4 +17,4 @@ PostgreSQL Driver: Connect to PostgreSQL
 Validation: Request validation (@Valid, @NotBlank, @Email, etc.)
 Lombok: Removes boilerplate (getters, setters, constructors)
 
-git add .; git commit -m "feat: initial commit working on setup"; git push
+git add .; git commit -m "feat: merge with main"; git push
