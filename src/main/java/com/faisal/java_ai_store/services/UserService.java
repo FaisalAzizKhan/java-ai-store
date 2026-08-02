@@ -3,8 +3,11 @@ package com.faisal.java_ai_store.services;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.faisal.java_ai_store.models.User;
 
+@Service
 public class UserService {
     
     private final List<User> users = new ArrayList<>();

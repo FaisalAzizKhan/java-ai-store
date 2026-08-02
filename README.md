@@ -1,6 +1,7 @@
 ```bash
 # Running the app
 mvn spring-boot:run
+mvn clean; mvn spring-boot:run
 
 # Reload Maven
 mvn clean
@@ -17,4 +18,4 @@ PostgreSQL Driver: Connect to PostgreSQL
 Validation: Request validation (@Valid, @NotBlank, @Email, etc.)
 Lombok: Removes boilerplate (getters, setters, constructors)
 
-git add .; git commit -m "feat: merge with main"; git push
+git add .; git commit -m "feat: working on user service and controller"; git push
